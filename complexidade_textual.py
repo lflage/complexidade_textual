@@ -3,15 +3,44 @@
 Criado por Lucas Fonseca Lage em 04/03/2020
 """
 
-import re
+import re, os
 import spacy
 from unicodedata import normalize
 from gensim.models import Phrases
+from document import Document
 
 bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
 trigram_model = Phrases.load('./n_gram_models/trigram_gen_model')
 
 nlp = spacy.load('pt_core_news_sm')
+
+freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
+ ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'NOUN'),
+ ('VERB', 'DET', 'NOUN', 'ADP', 'DET', 'NOUN', 'PUNCT'),
+ ('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'NOUN', 'PUNCT'),
+ ('NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN', 'PUNCT'),
+ ('VERB', 'ADP', 'DET', 'NOUN', 'ADP', 'NOUN', 'PUNCT'),
+ ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET'),
+ ('DET', 'NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'NOUN'),
+ ('NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'NOUN', 'PUNCT'),
+ ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADJ', 'PUNCT')]
+
+def corpus_reader(path):
+    prog = re.compile('(\.xml)$')
+    #prop = re.compile('(prompt)')
+    doc_list = []
+
+    f = []
+    fps = []
+    for dirpath, dirnames, filenames in os.walk(path):
+        for filename in filenames:
+            fps.append(os.path.normpath(os.path.join(dirpath,filename)))
+            
+    for path in fps:
+        if re.search(prog,path):
+            f.append(path)
+            doc_list.append(Document(path))
+    return doc_list
 
 def remover_acentos(text):
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
@@ -59,5 +88,27 @@ def trigram_number(trigram_sent_list):
             if re.search('(?<=_).+_',token):
                 count += 1
     return count
+
+def n_most_freq_pos_tag_seq(sent_list):
+    n = 0
+    pos_list = []
+    
+    for i in sent_list:
+        sent_nlp = nlp(i)
+        sent_pos = []
+        for token in sent_nlp:
+            sent_pos.append(token.pos_)
+        pos_list.append(sent_pos)
+        
+    for line in pos_list:
+        if len(line) < 7:
+            continue
+    if len(line) >= 7:
+        while len(line) >= 7:
+            t = tuple(line[0:7])
+            if t in freq_pos_tag:
+                n+=1
+            line.pop(0)
+    return n
 
 

@@ -25,6 +25,7 @@ freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
  ('NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'NOUN', 'PUNCT'),
  ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADJ', 'PUNCT')]
 
+
 def corpus_reader(path):
     prog = re.compile('(\.xml)$')
     #prop = re.compile('(prompt)')
@@ -40,7 +41,7 @@ def corpus_reader(path):
         if re.search(prog,path):
             f.append(path)
             doc_list.append(Document(path))
-    return doc_list
+    return (doc_list,f)
 
 def remover_acentos(text):
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')

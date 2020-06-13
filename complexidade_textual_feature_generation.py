@@ -11,13 +11,11 @@ import re, nltk
 #import pandas as pd
 import complexidade_textual as ct
 
-
-doc_list = ct.corpus_reader("./corpora/Redações")
-print("corpus was read")
+corpus = ct.corpus_reader("./corpora/Redações")
+doc_list,fps = corpus[0],corpus[1]
 
 # Inicializando o sentence Tokeninzer
 sent_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle') 
-print('sentence tokenizer was imported')
 
 for doc in doc_list:
     doc.read()

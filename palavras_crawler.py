@@ -31,11 +31,11 @@ assert "VISL - Tree structure" in driver.title
 #Textbox element that will receive the parsed text
 text_box = driver.find_element_by_name("text")
 text_box.clear()
-text_box.send_keys("Este é o texto que eu preciso parsear")
+text_box.send_keys("A menina que brincava no parque perdeu a boneca")
 
 # Select vertical visualization from dropdown box
 visualization = Select(driver.find_element_by_name('visual'))
-visualization.select_by_visible_text("Vertical")
+visualization.select_by_visible_text("Source")
 
 # Click to show parsed text
 exp_down = driver.find_element_by_name("go")

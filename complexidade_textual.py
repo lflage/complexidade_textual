@@ -43,6 +43,16 @@ def corpus_reader(path):
             doc_list.append(Document(path))
     return (doc_list,f)
 
+def corpus_yeeter(path):
+    prog = re.compile('(\.xml)$')
+    #prop = re.compile('(prompt)')
+
+    for dirpath, dirnames, filenames in os.walk(path):
+        for filename in filenames:
+            if re.search(prog,filename):
+                path = os.path.normpath(os.path.join(dirpath,filename))
+                yield (path, Document(path))
+
 def remover_acentos(text):
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
 

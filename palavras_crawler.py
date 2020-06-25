@@ -9,7 +9,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-#path_to_corpus = sys.argv[1]
+path_to_corpus = sys.argv[1]
 
 # Setting up Firefox
 driver = webdriver.Firefox()
@@ -17,8 +17,8 @@ driver.get("https://visl.sdu.dk/visl/pt/parsing/automatic/trees.php")
 assert "VISL - Tree structure" in driver.title
 
 # Reading corpus
-#corpus = ct.corpus_yeeter(path_to_corpus)
-corpus = ct.corpus_yeeter('./corpora/Redações')
+corpus = ct.corpus_yeeter(path_to_corpus)
+#corpus = ct.corpus_yeeter('./corpora/Redações')
 
 # Sentence tokenizer
 sent_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle') 

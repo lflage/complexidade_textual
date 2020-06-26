@@ -52,6 +52,22 @@ def corpus_yeeter(path):
             if re.search(prog,filename):
                 path = os.path.normpath(os.path.join(dirpath,filename))
                 yield (path, Document(path))
+                
+def all_fps(path_to_dir):
+    fps = []
+    for dirpath, dirnames, filenames in os.walk(path_to_dir):
+        for filename in filenames:
+            fps.append(os.path.normpath(os.path.join(dirpath,filename)))
+    return fps
+
+def parsed_search(path, path_list):
+    split_path = os.path.splitext(path)
+    path_to_search = "%s_parsed_%s" % (split_path[0],'.txt')
+    if path_to_search in path_list:
+        return 1
+    else:
+        return 0
+
 
 def remover_acentos(text):
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')

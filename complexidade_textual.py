@@ -68,7 +68,6 @@ def parsed_search(path, path_list):
     else:
         return 0
 
-
 def remover_acentos(text):
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
 
@@ -150,3 +149,16 @@ def recursive_split(text):
             current_level.append([i])
     return current_level
 
+def list_tree(path):
+    split_path = os.path.splitext(path)
+    parsed_path = "%s_parsed_%s" % (split_path[0],'.txt')
+    utt_list = []
+    with open(parsed_path,mode='r', encoding='utf8') as file:
+        utts = re.split(r'\nsentence\n', file.read())
+        for i in utts:
+            if re.search('UTT',i):
+                _half = re.split('UTT.+\n',text)[1]
+                _half = re.split('\n\.',_half)[0]
+                arvere = ['UTT', ct.recursive_split(_half)]
+            utt_list.append(arvere)
+    return utt_list

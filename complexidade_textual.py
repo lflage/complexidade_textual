@@ -97,7 +97,6 @@ def bi_trigram_counter(sentence_list):
     for bi_sent in bi_sent_list:
         tri_sent = trigram_model[bi_sent]
         tri_sent_list.append(tri_sent)
-        
     return(bigram_number(bi_sent_list),trigram_number(tri_sent_list))
     
 def bigram_number(bigram_sent_list):
@@ -138,4 +137,16 @@ def n_most_freq_pos_tag_seq(sent_list):
             line.pop(0)
     return n
 
+def recursive_split(text):
+    eq_sub = re.compile(r'^=', flags=re.M)
+    current_level = []
+    contents = re.split(r'\n(?=\w)',text)
+    for i in contents:
+        if re.search('=', i):    
+            nodes = re.split(r'(^\w.+\n)', i)
+            equal_remove = re.sub(eq_sub, '', nodes[2])
+            current_level.append([nodes[1], recursive_split(equal_remove)])
+        else:
+            current_level.append([i])
+    return current_level
 

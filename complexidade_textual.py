@@ -41,7 +41,7 @@ def corpus_reader(path):
         if re.search(prog,path):
             f.append(path)
             doc_list.append(Document(path))
-    return (doc_list,f)
+    return (f, doc_list)
 
 def corpus_yeeter(path):
     prog = re.compile('(\.xml)$')

@@ -12,7 +12,7 @@ import re, nltk
 import complexidade_textual as ct
 
 corpus = ct.corpus_reader("./corpora/Redações")
-doc_list,fps = corpus[0],corpus[1]
+fps, doc_list = corpus[0],corpus[1]
 
 # Inicializando o sentence Tokeninzer
 sent_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle') 

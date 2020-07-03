@@ -25,7 +25,6 @@ freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
  ('NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'NOUN', 'PUNCT'),
  ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADJ', 'PUNCT')]
 
-
 def corpus_reader(path):
     prog = re.compile('(\.xml)$')
     #prop = re.compile('(prompt)')
@@ -157,8 +156,8 @@ def list_tree(path):
         utts = re.split(r'\nsentence\n', file.read())
         for i in utts:
             if re.search('UTT',i):
-                _half = re.split('UTT.+\n',text)[1]
+                _half = re.split('UTT.+\n',i)[1]
                 _half = re.split('\n\.',_half)[0]
-                arvere = ['UTT', ct.recursive_split(_half)]
+                arvere = ['UTT', recursive_split(_half)]
             utt_list.append(arvere)
     return utt_list

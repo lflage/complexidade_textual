@@ -4,15 +4,8 @@ Criado por Lucas Fonseca Lage em 04/03/2020
 """
 
 import re, os
-import spacy
 from unicodedata import normalize
-from gensim.models import Phrases
 from document import Document
-
-bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
-trigram_model = Phrases.load('./n_gram_models/trigram_gen_model')
-
-nlp = spacy.load('pt_core_news_sm')
 
 freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
  ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'NOUN'),

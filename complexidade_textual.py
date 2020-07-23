@@ -6,7 +6,6 @@ Criado por Lucas Fonseca Lage em 04/03/2020
 import re, os, spacy
 from unicodedata import normalize
 from document import Document
-#from sklearn.model_selection import train_test_split
 from gensim.models import Phrases
 
 # Carregamento do modelo Spacy
@@ -28,8 +27,11 @@ freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
  ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADJ', 'PUNCT')]
 
 def corpus_reader(path):
+    '''Lê as extensões dos arquivos .xml no caminho especificado como path e
+    retorna uma tupla com duas listas.Uma lista contém os paths para os arquivos
+    .xml e a outra contém os arquivos Document gerados para aquele arquilo .xml
+    '''
     prog = re.compile('(\.xml)$')
-    #prop = re.compile('(prompt)')
     doc_list = []
 
     f = []
@@ -45,35 +47,39 @@ def corpus_reader(path):
     return (f, doc_list)
 
 def corpus_yeeter(path):
+    '''Similar ao corpus_reader. Recebe um caminho para a pasta contendo o
+     corpus e cria um generator. Cada iteração retorna uma tupla contendo um
+    caminho para o arquivo .xml e o objeto Document criado a partir do mesmo
+    '''
     prog = re.compile('(\.xml)$')
-    #prop = re.compile('(prompt)')
-
     for dirpath, dirnames, filenames in os.walk(path):
         for filename in filenames:
             if re.search(prog,filename):
                 path = os.path.normpath(os.path.join(dirpath,filename))
                 yield (path, Document(path))
 
+
 def all_fps(path_to_dir):
+    '''Recebe o caminho para o diretório e retorna uma lista com os caminhos
+    absolutos para os arquivos que estão nele
+    '''
     fps = []
     for dirpath, dirnames, filenames in os.walk(path_to_dir):
         for filename in filenames:
             fps.append(os.path.normpath(os.path.join(dirpath,filename)))
     return fps
 
-def parsed_search(path, path_list):
-    split_path = os.path.splitext(path)
-    path_to_search = "%s_parsed_%s" % (split_path[0],'.txt')
-    if path_to_search in path_list:
-        return 1
-    else:
-        return 0
 
 def remover_acentos(text):
+    '''Remove os acentos da string "text". Usada somente na função pre_process
+    '''
     return normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
 
+
 def pre_process(text):
-    # Retira espaços em branco extras
+    '''Realiza um pré processamento da string de entrada "text".
+    Retira espaços em branco extras e retira caracteres não alfanuméricos
+    '''
     text = re.sub('\s{2,}',' ',text).strip().lower()
     doc = nlp(text)
     #Retira numeros
@@ -81,9 +87,11 @@ def pre_process(text):
                      and token.pos_ != 'PUNCT'])
     return remover_acentos(text)
 
+
 def bi_trigram_counter(sentence_list):
-    # Retorna uma tupla com o numero de bigramas e trigramas
-    # Recebe como entrada o texto seguimentado em sentencas
+    """Retorna uma tupla com o numero de bigramas e trigramas.
+    Recebe como entrada o texto seguimentado em uma lista de sentencas.
+    """
     bi_sent_list = []
     tri_sent_list = []
 
@@ -98,6 +106,9 @@ def bi_trigram_counter(sentence_list):
     return(bigram_number(bi_sent_list),trigram_number(tri_sent_list))
 
 def bigram_number(bigram_sent_list):
+    '''Conta o número de bigramas encontrados na redação. Recebe uma lista de
+    sentenças que configuram a redação.
+    '''
     count = 0
     for sent in bigram_sent_list:
         for token in sent:
@@ -106,6 +117,9 @@ def bigram_number(bigram_sent_list):
     return count
 
 def trigram_number(trigram_sent_list):
+    '''Conta o número de trigramas encontrados na redação. Recebe uma lista de
+    sentenças que configuram a redação
+    '''
     count = 0
     for sent in trigram_sent_list:
         for token in sent:
@@ -114,6 +128,9 @@ def trigram_number(trigram_sent_list):
     return count
 
 def n_most_freq_pos_tag_seq(sent_list):
+    ''' Procura na lista de sentenças a sequências de pos_tag mais frequentes e
+    retorna a quantidade encontrada.
+    '''
     n = 0
     pos_list = []
 
@@ -135,90 +152,13 @@ def n_most_freq_pos_tag_seq(sent_list):
             line.pop(0)
     return n
 
-def recursive_split(text):
-    eq_sub = re.compile(r'^\W', flags=re.M)
-#    while re.search(r'^=',text):
-#        text = re.sub(eq_sub, '', text)
-    current_level = []
-    contents = re.split(r'\n(?=\w)',text)
-    for i in contents:
-        if re.search('=', i):
-            try:
-                nodes = re.split(r'(^\w.+\n)', i)
-                next_level = nodes[2]
-                while re.search(r'=',next_level):
-                    next_level = re.sub(eq_sub, '', next_level)
-                current_level.append([nodes[1], recursive_split(next_level)])
-            except:
-                print('its time to stop')
-
-        else:
-            current_level.append([i])
-    return current_level
-
-def list_tree(path):
-    split_path = os.path.splitext(path)
-    parsed_path = "%s_parsed_%s" % (split_path[0],'.txt')
-    utt_list = []
-    with open(parsed_path,mode='r', encoding='utf8') as file:
-
-        trees = re.sub(r'=-','==', file.read(), flags=re.M)
-        trees = re.sub(r'^=+\"=+','',trees, flags=re.M)
-        trees = re.sub(r'^\n\W+,','',trees, flags=re.M)
-
-        utts = re.split(r'\nsentence\n', trees)
-        for i in utts:
-            if re.search('UTT',i):
-                #não existem apenas UTTs nas redaçoes, averiguar
-                half = re.split('UTT.+\n',i)[1]
-                half = re.split('\n\.',half)[0]
-                arvere = ['UTT', recursive_split(half)]
-                utt_list.append(arvere)
-    return utt_list
-
-def adjust_conll(path):
-    with open(path, 'r+') as file:
-        split_path = os.path.splitext(path)
-        new_conll_path = "%s_adaptado%s" % (split_path[0],'.conll')
-        with open(new_conll_path,'w+') as f:
-            for line in file.readlines():
-                if line.startswith('<'):
-                    continue
-                elif re.search(r'^\d',line):
-                    text = line.strip().split('\t')
-                    text.extend(['_','_'])
-                    f.write('\t'.join(text)+'\n')
-                else:
-                    f.write(line)
-    with open(new_conll_path,'r') as f:
-        text = f.read()
-        text = re.sub(r'\n\s*\n', '\n\n',text)
-
-    with open(new_conll_path,'w') as f:
-        for sent in text.strip().split('\n\n'):
-            lines = sent.strip().split('\n')
-            if re.search(r'^\D',sent, flags=re.M):
-                continue
-            for line in lines:
-                f.write(line+'\n')
-            f.write('\n\n')
-    return
-
-def train_test_conll(path):
-    split_path = os.path.splitext(path)
-    train_path = "%s_train%s" % (split_path[0],'.conll')
-    test_path = "%s_test%s" % (split_path[0],'.conll')
-
-    with open(path,'r', encoding='utf-8') as f:
-        sentences = f.read().strip().split('\n\n')
-        train,test = train_test_split(sentences)
-
-    with open(train_path,'w', encoding='utf-8') as f:
-        f.write('\n\n'.join(train))
-    with open(test_path,'w', encoding='utf-8') as f:
-        f.write('\n\n'.join(test))
-
 def subj_n_elements(sentence_list):
+    ''' Recebe a lista de sentenças da redação. Conta a quantidade de elementos
+    abaixo do sujeito na árvore sintática gerada pelo "dependecy parser" do
+    Spacy. Retorna o número de sujeitos que possuem uma quantidade de elementos
+    maior que 7 e também o número total de elementos que fazem parte de um
+    sujeito em toda a redação.
+    '''
     r_list = []
     for sent in sentence_list:
         big_subj = 0

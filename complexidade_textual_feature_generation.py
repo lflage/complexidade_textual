@@ -10,14 +10,6 @@ import nltk, spacy, re
 #import pandas as pd
 import complexidade_textual as ct
 
-
-# # Carregamento dos modelos de bigramas e trigramas
-# bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
-# trigram_model = Phrases.load('./n_gram_models/trigram_gen_model')
-
-# # Carregamento do modelo Spacy
-# nlp = spacy.load('pt_core_news_lg')
-
 # Inicializando Corpus
 corpus = ct.corpus_yeeter("./corpora/Redações")
 

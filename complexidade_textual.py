@@ -160,10 +160,10 @@ def subj_n_elements(sentence_list):
     sujeito em toda a redação.
     '''
     r_list = []
-    for sent in sentence_list:
+#    for sent in sentence_list:
+    for spacy_doc in nlp.pipe(sentence_list):
         big_subj = 0
         subj_el_total = 0
-        spacy_doc = nlp(sent)
         for token in spacy_doc:
             if token.dep_ == 'nsubj':
                 size = len([desc for desc in token.subtree if desc.is_alpha])

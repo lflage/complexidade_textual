@@ -9,11 +9,11 @@ from document import Document
 from gensim.models import Phrases
 
 # Carregamento do modelo Spacy
-nlp = spacy.load('pt_core_news_lg')
+#nlp = spacy.load('pt_core_news_lg')
 
 # Carregamento dos modelos de bigramas e trigramas
-bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
-trigram_model = Phrases.load('./n_gram_models/trigram_gen_model')
+#bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
+#trigram_model = Phrases.load('./n_gram_models/trigram_gen_model')
 
 freq_pos_tag = [('DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'DET', 'NOUN'),
  ('VERB', 'DET', 'NOUN', 'ADP', 'NOUN', 'ADP', 'NOUN'),
@@ -160,7 +160,6 @@ def subj_n_elements(sentence_list):
     sujeito em toda a redação.
     '''
     r_list = []
-#    for sent in sentence_list:
     for spacy_doc in nlp.pipe(sentence_list):
         big_subj = 0
         subj_el_total = 0
@@ -171,4 +170,16 @@ def subj_n_elements(sentence_list):
                     big_subj += 1
                 subj_el_total += size
         r_list.append((big_subj,subj_el_total))
-    return [sum(i) for i in zip(*r_list)]
+    return tuple([sum(i) for i in zip(*r_list)])
+
+def synset_count(sent_list, lang='por', pos='NOUN'):
+    i = 0
+    for spacy_doc in nlp.pipe(sent_list):
+        for token in spacy_doc:
+            if token.pos_ == pos:
+                i += len(wn.synsets(token.text, lang=lang))
+    return (i, i/len(sent_list))
+
+def hypo_hyper_count(sent_list):
+    for sent in nlp.pipe(sent_list):
+        [my_lesk(sent,token) for token in sent if token.pos_='NOUN']

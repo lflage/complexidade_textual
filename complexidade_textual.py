@@ -4,6 +4,8 @@ Criado por Lucas Fonseca Lage em 04/03/2020
 """
 
 import re, os, spacy
+import my_lesk
+import numpy as np
 from unicodedata import normalize
 from document import Document
 from gensim.models import Phrases
@@ -181,5 +183,14 @@ def synset_count(sent_list, lang='por', pos='NOUN'):
     return (i, i/len(sent_list))
 
 def hypo_hyper_count(sent_list):
+    hyper = np.array()
+    hypo = np.array()
+    size = len(sent_list)
     for sent in nlp.pipe(sent_list):
-        [my_lesk(sent,token) for token in sent if token.pos_='NOUN']
+        ss = [my_lesk(sent,token) for token in sent if token.pos_='NOUN']
+        for s in ss:
+            hyper.append(len(s.hypernyms()))
+            hypo.append(len(s.hyponyms()))
+    h_er_sum = hyper.sum()
+    h_o_sum = hypo.sum()
+    return(h_er_sum,h_er_sum/size, h_o_sum,h_o_sum/size)

@@ -14,7 +14,7 @@ def to_pulo(ss_list, pos='NOUN'):
 
 def req_parse(response):
     '''Parseia a lista de synsets e retorna uma lista de tuplas contendo POS e offset para o Wordnet'''
-    return response.split('-')[-2].replace('0','')
+    return int(response.split('-')[-2].replace('0',''))
 
 def get_gloss(ss, lang='por'):
     pulo='http://wordnet.pt/api/gloss/%s'

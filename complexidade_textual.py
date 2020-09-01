@@ -4,14 +4,14 @@ Criado por Lucas Fonseca Lage em 04/03/2020
 """
 
 import re, os, spacy
-import my_lesk
 import numpy as np
+from my_wsd import my_lesk
 from unicodedata import normalize
 from document import Document
 from gensim.models import Phrases
 
 # Carregamento do modelo Spacy
-#nlp = spacy.load('pt_core_news_lg')
+nlp = spacy.load('pt_core_news_lg')
 
 # Carregamento dos modelos de bigramas e trigramas
 #bigram_model = Phrases.load('./n_gram_models/bigram_gen_model')
@@ -183,14 +183,18 @@ def synset_count(sent_list, lang='por', pos='NOUN'):
     return (i, i/len(sent_list))
 
 def hypo_hyper_count(sent_list):
-    hyper = np.array()
-    hypo = np.array()
+    hyper = []
+    hypo = []
     size = len(sent_list)
     for sent in nlp.pipe(sent_list):
-        ss = [my_lesk(sent,token) for token in sent if token.pos_='NOUN']
+        ss = [my_lesk(sent,token.text) for token in sent if token.pos_=='NOUN']
+        print(ss)
         for s in ss:
-            hyper.append(len(s.hypernyms()))
-            hypo.append(len(s.hyponyms()))
-    h_er_sum = hyper.sum()
-    h_o_sum = hypo.sum()
+            try:
+                hyper.append(len(s.hypernyms()))
+                hypo.append(len(s.hyponyms()))
+            except AttributeError:
+                continue
+    h_er_sum = sum(hyper)
+    h_o_sum = sum(hypo)
     return(h_er_sum,h_er_sum/size, h_o_sum,h_o_sum/size)

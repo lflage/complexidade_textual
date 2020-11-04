@@ -7,7 +7,6 @@ def to_pulo(ss_list, pos='NOUN'):
         to_list = str(ss.offset()).zfill(8)
         to_list = 'por-30-'+ to_list + '-n'
         pulo_off.append(to_list)
-    print(pulo_off)
     return pulo_off
 
 def req_parse(response):
@@ -16,7 +15,7 @@ def req_parse(response):
 
 def get_gloss(ss, lang='por'):
     pulo='http://wordnet.pt/api/gloss/%s' % ss
-    gloss_dict = requests.get(pulo).json()
+    gloss_dict = requests.get(pulo, timeout=15).json()
     if 'gloss' in gloss_dict.keys():
         return gloss_dict['gloss']
     else:

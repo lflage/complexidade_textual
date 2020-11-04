@@ -92,7 +92,7 @@ def pre_process(text):
 
 def bi_trigram_counter(sentence_list):
     """Retorna uma tupla com o numero de bigramas e trigramas.
-    Recebe como entrada o texto seguimentado em uma lista de sentencas.
+    Recebe como entrada o texto segmentado em uma lista de sentencas.
     """
     bi_sent_list = []
     tri_sent_list = []
@@ -188,7 +188,6 @@ def hypo_hyper_count(sent_list):
     size = len(sent_list)
     for sent in nlp.pipe(sent_list):
         ss = [my_lesk(sent,token.text) for token in sent if token.pos_=='NOUN']
-        print(ss)
         for s in ss:
             try:
                 hyper.append(len(s.hypernyms()))

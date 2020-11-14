@@ -1,0 +1,6 @@
+./corpora
+./__pycache__
+.ipynb_checkpoints
+n_gram_models
+geckodriver.log
+Testes.ipynb

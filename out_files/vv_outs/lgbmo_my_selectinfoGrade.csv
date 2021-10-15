@@ -1,0 +1,35 @@
+['n_bigram'],0.398913
+['n_trigram'],0.405670
+['n_freq_pos_seq'],0.408658
+['n_subj_el_big'],0.399398
+['n_subj_el_total'],0.401991
+['hypernym_count'],0.385746
+['hypernym_count_sent'],0.406486
+['hyponyms_count'],0.400717
+['hyponyms_count_sent'],0.407493
+['hypernym_count', 'n_bigram'],0.387121
+['hypernym_count', 'n_trigram'],0.389337
+['hypernym_count', 'n_freq_pos_seq'],0.388289
+['hypernym_count', 'n_subj_el_big'],0.386739
+['hypernym_count', 'n_subj_el_total'],0.393358
+['hypernym_count', 'hypernym_count_sent'],0.387197
+['hypernym_count', 'hyponyms_count'],0.389390
+['hypernym_count', 'hyponyms_count_sent'],0.389865
+['hypernym_count', 'n_subj_el_big', 'n_bigram'],0.389785
+['hypernym_count', 'n_subj_el_big', 'n_trigram'],0.387683
+['hypernym_count', 'n_subj_el_big', 'n_freq_pos_seq'],0.388305
+['hypernym_count', 'n_subj_el_big', 'n_subj_el_total'],0.390667
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent'],0.386936
+['hypernym_count', 'n_subj_el_big', 'hyponyms_count'],0.390718
+['hypernym_count', 'n_subj_el_big', 'hyponyms_count_sent'],0.387228
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram'],0.385311
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_trigram'],0.386101
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_freq_pos_seq'],0.387076
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_subj_el_total'],0.388542
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'hyponyms_count'],0.386041
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'hyponyms_count_sent'],0.385825
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'n_trigram'],0.385813
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'n_freq_pos_seq'],0.385596
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'n_subj_el_total'],0.386350
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'hyponyms_count'],0.386122
+['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'hyponyms_count_sent'],0.384624

@@ -7,8 +7,13 @@ import random
 import lightgbm as lgb
 
 # Parameters
-LABEL_COLUMN_NAME = 'grade' # nome da coluna de saida
-UNWANTED_COLUMNS = ['path']
+LABEL_COLUMN_NAME = 'understandingGrade'   # nome da coluna de saida
+UNWANTED_COLUMNS = ['filename','nErrors','nErrorsTokens','ntokens','fleshscore',
+'avgWordLength','nSpelling','nSpellingTokens','nLongSentence','nStyleErrors',
+'nStyleperSent','nvoc','similarityprompt','countDemonstrativo',
+'demonstrativoPerSent','countEnclise','enclisePerSent','fstPerson',
+'fstPessoaPerSent','countDiscourseMarkers','discourseSent',
+'selectinginfoGrade','showknowGrade','solutionGrade','formalGrade','finalGrade']
 N_FOLDS = 5
 
 params = {
@@ -47,6 +52,7 @@ df = pd.read_csv(sys.argv[1])
 df.dropna(axis=0, subset=[LABEL_COLUMN_NAME], inplace=True)
 
 all_features = list(df.columns)
+
 for f in UNWANTED_COLUMNS + [LABEL_COLUMN_NAME]:
     all_features.remove(f)
 

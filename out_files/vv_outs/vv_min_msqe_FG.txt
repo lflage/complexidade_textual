@@ -1,0 +1,86 @@
+Análise sobre a nota final
+
+ - Todas as Features
+./out_files/vv_outs/lgbm_all_fGrade.csv
+["['nLongSentence', 'nErrorsTokens', 'nvoc', 'countEnclise', 'similarityprompt', 'n_subj_el_big', 'fleshscore', 'countDiscourseMarkers', 'nStyleErrors', 'nSpellingTokens', 'avgWordLength', 'n_trigram', 'hyponyms_count_sent', 'nSpelling', 'n_subj_el_total', 'discourseSent']"]
+1.505848
+- Apenas minhas features
+./out_files/vv_outs/lgbm_out_my_features_fGrade.csv
+["['hypernym_count', 'hypernym_count_sent', 'n_subj_el_big', 'n_bigram']"
+ "['hypernym_count', 'hypernym_count_sent', 'n_subj_el_big', 'n_bigram', 'n_freq_pos_seq']"]
+1.647767
+- Features da Evelyn
+./out_files/vv_outs/lgbmo_ev_fGrade.csv
+["['nvoc', 'nStyleErrors', 'countDiscourseMarkers', 'similarityprompt', 'nErrors', 'ntokens', 'countDemonstrativo', 'nSpelling', 'fleshscore', 'countEnclise', 'nSpellingTokens', 'fstPessoaPerSent']"]
+1.496235
+
+Análise sobre nota "formal"
+ - Todas as Features
+./out_files/vv_outs/lgbmo_all_formalGrade.csv
+["['nErrorsTokens', 'nvoc', 'n_subj_el_total', 'n_trigram', 'n_bigram', 'nStyleperSent', 'fstPerson', 'fleshscore', 'n_freq_pos_seq', 'discourseSent', 'avgWordLength', 'countDiscourseMarkers', 'n_subj_el_big', 'hyponyms_count', 'nLongSentence', 'similarityprompt', 'nErrors', 'nSpelling', 'nSpellingTokens', 'countDemonstrativo']"]
+0.323352
+ - Minhas features
+./out_files/vv_outs/lgbmo_my_formalGrade.csv
+["['hypernym_count', 'n_subj_el_big', 'n_freq_pos_seq', 'hyponyms_count_sent', 'n_trigram', 'hyponyms_count']"]
+0.363409
+-Features da Evelyn
+./out_files/vv_outs/lgbmo_ev_formalGrade.csv
+["['nErrorsTokens', 'nvoc', 'fleshscore', 'fstPerson', 'countDiscourseMarkers', 'avgWordLength', 'similarityprompt', 'nLongSentence', 'ntokens', 'countEnclise', 'nStyleErrors', 'nSpelling', 'fstPessoaPerSent']"]
+0.323334
+
+Análise nota de solução:
+- Todas as Features
+./out_files/vv_outs/lgbmo_ev_solutionGrade.csv
+["['nLongSentence', 'nStyleperSent', 'nvoc', 'fleshscore', 'fstPerson', 'nStyleErrors', 'similarityprompt', 'countEnclise', 'nErrors', 'countDiscourseMarkers', 'countDemonstrativo']"]
+0.426144
+- Minhas features
+./out_files/vv_outs/lgbmo_my_solutionGrade.csv
+["['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_freq_pos_seq', 'n_subj_el_total']"]
+0.449786
+- Features da Evelyn
+./out_files/vv_outs/lgbmo_all_solutionGrade.csv
+["['nLongSentence', 'nStyleperSent', 'nvoc', 'fleshscore', 'fstPerson', 'nStyleErrors', 'hyponyms_count', 'hyponyms_count_sent', 'similarityprompt', 'nErrorsTokens', 'n_trigram', 'nSpelling', 'hypernym_count_sent', 'ntokens', 'n_freq_pos_seq', 'fstPessoaPerSent', 'avgWordLength']"]
+0.424118
+
+Análise nota "show know":
+- Todas as Features
+./out_files/vv_outs/lgbmo_all_showknowGrade.csv
+["['nStyleperSent', 'nvoc', 'enclisePerSent', 'discourseSent', 'nStyleErrors', 'hyponyms_count_sent', 'countDiscourseMarkers', 'n_trigram', 'hypernym_count', 'fleshscore', 'n_freq_pos_seq', 'n_bigram', 'hyponyms_count', 'ntokens', 'nSpellingTokens']"]
+0.382339😀️
+- Minhas Features
+./out_files/vv_outs/lgbmo_my_showknowGrade.csv
+["['hypernym_count', 'hypernym_count_sent', 'n_subj_el_big', 'n_bigram', 'hyponyms_count_sent']"]
+0.409514
+- Features da Evelyn
+./out_files/vv_outs/lgbmo_ev_showknowGrade.csv
+["['nStyleperSent', 'nvoc', 'enclisePerSent', 'discourseSent', 'nStyleErrors', 'ntokens', 'fstPessoaPerSent', 'fleshscore', 'countDemonstrativo']"]
+0.387419
+
+Análise nota "select info":
+- Todas as Features
+./out_files/vv_outs/lgbmo_all_selectinfoGrade.csv
+["['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq']"]
+0.365333😀️
+- Minhas Features
+./out_files/vv_outs/lgbmo_my_selectinfoGrade.csv
+["['hypernym_count', 'n_subj_el_big', 'hypernym_count_sent', 'n_bigram', 'hyponyms_count_sent']"]
+0.384624
+- Features da Evelyn
+./out_files/vv_outs/lgbmo_ev_selectinfoGrade.csv
+["['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nvoc', 'countDiscourseMarkers', 'countEnclise', 'nStyleperSent', 'similarityprompt']"]
+0.366932
+
+
+análise nota understandingGrade:
+- Todas as Features
+./out_files/vv_outs/lgbmo_all_understandingGrade.csv
+["['nvoc', 'nErrors', 'similarityprompt', 'nSpelling', 'nStyleErrors', 'n_freq_pos_seq', 'ntokens', 'nErrorsTokens', 'avgWordLength', 'countDiscourseMarkers', 'fstPessoaPerSent']"]
+0.354673
+- Features da Evelyn
+./out_files/vv_outs/lgbmo_ev_understandingGrade.csv
+["['nvoc', 'nErrors', 'similarityprompt', 'nSpelling', 'nStyleErrors', 'countEnclise', 'countDiscourseMarkers']"]
+0.356002
+- minhas Features
+./out_files/vv_outs/lgbmo_my_understandingGrade.csv
+["['hypernym_count', 'hyponyms_count_sent', 'n_subj_el_big', 'n_bigram', 'n_subj_el_total']"]
+0.373877

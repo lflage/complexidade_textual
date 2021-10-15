@@ -1,0 +1,380 @@
+['n_bigram'],0.398913
+['n_trigram'],0.405670
+['n_freq_pos_seq'],0.408658
+['n_subj_el_big'],0.399398
+['n_subj_el_total'],0.401991
+['hypernym_count'],0.385746
+['hypernym_count_sent'],0.406486
+['hyponyms_count'],0.400717
+['hyponyms_count_sent'],0.407493
+['nErrors'],0.400596
+['nErrorsTokens'],0.393654
+['ntokens'],0.382231
+['fleshscore'],0.408681
+['avgWordLength'],0.407037
+['nSpelling'],0.404308
+['nSpellingTokens'],0.408090
+['nLongSentence'],0.388454
+['nStyleErrors'],0.404783
+['nStyleperSent'],0.391048
+['nvoc'],0.385511
+['similarityprompt'],0.387822
+['countDemonstrativo'],0.408656
+['demonstrativoPerSent'],0.404618
+['countEnclise'],0.402810
+['enclisePerSent'],0.402993
+['fstPerson'],0.407252
+['fstPessoaPerSent'],0.404140
+['countDiscourseMarkers'],0.398957
+['discourseSent'],0.407449
+['ntokens', 'n_bigram'],0.386045
+['ntokens', 'n_trigram'],0.381527
+['ntokens', 'n_freq_pos_seq'],0.380870
+['ntokens', 'n_subj_el_big'],0.384188
+['ntokens', 'n_subj_el_total'],0.386904
+['ntokens', 'hypernym_count'],0.385893
+['ntokens', 'hypernym_count_sent'],0.381205
+['ntokens', 'hyponyms_count'],0.382586
+['ntokens', 'hyponyms_count_sent'],0.382079
+['ntokens', 'nErrors'],0.376985
+['ntokens', 'nErrorsTokens'],0.377715
+['ntokens', 'fleshscore'],0.386448
+['ntokens', 'avgWordLength'],0.384397
+['ntokens', 'nSpelling'],0.382823
+['ntokens', 'nSpellingTokens'],0.385199
+['ntokens', 'nLongSentence'],0.385497
+['ntokens', 'nStyleErrors'],0.374457
+['ntokens', 'nStyleperSent'],0.376359
+['ntokens', 'nvoc'],0.385314
+['ntokens', 'similarityprompt'],0.384356
+['ntokens', 'countDemonstrativo'],0.384592
+['ntokens', 'demonstrativoPerSent'],0.379091
+['ntokens', 'countEnclise'],0.384454
+['ntokens', 'enclisePerSent'],0.385806
+['ntokens', 'fstPerson'],0.381814
+['ntokens', 'fstPessoaPerSent'],0.381590
+['ntokens', 'countDiscourseMarkers'],0.382812
+['ntokens', 'discourseSent'],0.386776
+['ntokens', 'nStyleErrors', 'n_bigram'],0.372220
+['ntokens', 'nStyleErrors', 'n_trigram'],0.371028
+['ntokens', 'nStyleErrors', 'n_freq_pos_seq'],0.374086
+['ntokens', 'nStyleErrors', 'n_subj_el_big'],0.377412
+['ntokens', 'nStyleErrors', 'n_subj_el_total'],0.374722
+['ntokens', 'nStyleErrors', 'hypernym_count'],0.373144
+['ntokens', 'nStyleErrors', 'hypernym_count_sent'],0.369757
+['ntokens', 'nStyleErrors', 'hyponyms_count'],0.370101
+['ntokens', 'nStyleErrors', 'hyponyms_count_sent'],0.372225
+['ntokens', 'nStyleErrors', 'nErrors'],0.372962
+['ntokens', 'nStyleErrors', 'nErrorsTokens'],0.371612
+['ntokens', 'nStyleErrors', 'fleshscore'],0.373428
+['ntokens', 'nStyleErrors', 'avgWordLength'],0.374790
+['ntokens', 'nStyleErrors', 'nSpelling'],0.376763
+['ntokens', 'nStyleErrors', 'nSpellingTokens'],0.374838
+['ntokens', 'nStyleErrors', 'nLongSentence'],0.373890
+['ntokens', 'nStyleErrors', 'nStyleperSent'],0.375205
+['ntokens', 'nStyleErrors', 'nvoc'],0.371927
+['ntokens', 'nStyleErrors', 'similarityprompt'],0.373425
+['ntokens', 'nStyleErrors', 'countDemonstrativo'],0.374088
+['ntokens', 'nStyleErrors', 'demonstrativoPerSent'],0.373129
+['ntokens', 'nStyleErrors', 'countEnclise'],0.373604
+['ntokens', 'nStyleErrors', 'enclisePerSent'],0.374192
+['ntokens', 'nStyleErrors', 'fstPerson'],0.372316
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent'],0.369043
+['ntokens', 'nStyleErrors', 'countDiscourseMarkers'],0.374217
+['ntokens', 'nStyleErrors', 'discourseSent'],0.373049
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'n_bigram'],0.370041
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'n_trigram'],0.370032
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'n_freq_pos_seq'],0.369822
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'n_subj_el_big'],0.370253
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'n_subj_el_total'],0.370981
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hypernym_count'],0.370476
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hypernym_count_sent'],0.368947
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count'],0.368025
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count_sent'],0.369618
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nErrors'],0.368339
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nErrorsTokens'],0.368396
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'fleshscore'],0.371673
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'avgWordLength'],0.371917
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nSpelling'],0.371749
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nSpellingTokens'],0.374277
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nLongSentence'],0.372846
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nStyleperSent'],0.371341
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'nvoc'],0.368337
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'similarityprompt'],0.370187
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'countDemonstrativo'],0.369754
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'demonstrativoPerSent'],0.372624
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'countEnclise'],0.370170
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'enclisePerSent'],0.370649
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'fstPerson'],0.370483
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'countDiscourseMarkers'],0.372052
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'discourseSent'],0.371324
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'n_bigram'],0.371039
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'n_trigram'],0.367885
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'n_freq_pos_seq'],0.369092
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'n_subj_el_big'],0.368271
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'n_subj_el_total'],0.369362
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'hypernym_count'],0.367153
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'hypernym_count_sent'],0.368159
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'hyponyms_count_sent'],0.368933
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nErrors'],0.367180
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nErrorsTokens'],0.369511
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'fleshscore'],0.369934
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'avgWordLength'],0.368939
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nSpelling'],0.370570
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nSpellingTokens'],0.372268
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nLongSentence'],0.371501
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nStyleperSent'],0.369423
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc'],0.366353
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'similarityprompt'],0.368833
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'countDemonstrativo'],0.371247
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'demonstrativoPerSent'],0.370930
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'countEnclise'],0.368106
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'enclisePerSent'],0.368722
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'fstPerson'],0.369722
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'countDiscourseMarkers'],0.369710
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'discourseSent'],0.369138
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'n_bigram'],0.368660
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'n_trigram'],0.366641
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'n_freq_pos_seq'],0.367745
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'n_subj_el_big'],0.368030
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'n_subj_el_total'],0.370283
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count'],0.368145
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent'],0.366466
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hyponyms_count_sent'],0.368186
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nErrors'],0.367276
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nErrorsTokens'],0.372313
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'fleshscore'],0.371516
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'avgWordLength'],0.368919
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nSpelling'],0.369596
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nSpellingTokens'],0.372437
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nLongSentence'],0.370092
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'nStyleperSent'],0.370702
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'similarityprompt'],0.367805
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'countDemonstrativo'],0.368594
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'demonstrativoPerSent'],0.369893
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'countEnclise'],0.368340
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'enclisePerSent'],0.370551
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'fstPerson'],0.367617
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'countDiscourseMarkers'],0.367549
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'discourseSent'],0.369189
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_bigram'],0.369500
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram'],0.366125
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_freq_pos_seq'],0.367270
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_subj_el_big'],0.368292
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_subj_el_total'],0.369535
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'hypernym_count'],0.367927
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'hyponyms_count_sent'],0.367533
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nErrors'],0.368333
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nErrorsTokens'],0.371679
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'fleshscore'],0.369752
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'avgWordLength'],0.368383
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nSpelling'],0.367699
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nSpellingTokens'],0.369859
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nLongSentence'],0.369206
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'nStyleperSent'],0.369014
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'similarityprompt'],0.370171
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'countDemonstrativo'],0.369309
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'demonstrativoPerSent'],0.368345
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'countEnclise'],0.366563
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'enclisePerSent'],0.367593
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'fstPerson'],0.367475
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'countDiscourseMarkers'],0.369750
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'discourseSent'],0.369387
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_bigram'],0.368517
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq'],0.365333
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_subj_el_big'],0.367974
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_subj_el_total'],0.369658
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'hypernym_count'],0.366969
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'hyponyms_count_sent'],0.367632
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nErrors'],0.368725
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nErrorsTokens'],0.371022
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'fleshscore'],0.367635
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'avgWordLength'],0.366454
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nSpelling'],0.368013
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nSpellingTokens'],0.370340
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nLongSentence'],0.369415
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'nStyleperSent'],0.369187
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'similarityprompt'],0.369895
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'countDemonstrativo'],0.367352
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'demonstrativoPerSent'],0.369429
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'countEnclise'],0.365997
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'enclisePerSent'],0.368618
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'fstPerson'],0.365591
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'countDiscourseMarkers'],0.369249
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'discourseSent'],0.367755
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'n_bigram'],0.368090
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'n_subj_el_big'],0.366554
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'n_subj_el_total'],0.369189
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'hypernym_count'],0.369273
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'hyponyms_count_sent'],0.367512
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nErrors'],0.367972
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nErrorsTokens'],0.372028
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fleshscore'],0.367594
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'avgWordLength'],0.367379
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nSpelling'],0.368320
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nSpellingTokens'],0.369974
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nLongSentence'],0.369890
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'nStyleperSent'],0.368616
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'similarityprompt'],0.369797
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'countDemonstrativo'],0.368688
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'demonstrativoPerSent'],0.368803
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'countEnclise'],0.366402
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'enclisePerSent'],0.367867
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson'],0.365590
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'countDiscourseMarkers'],0.369012
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'discourseSent'],0.368533
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'n_bigram'],0.369754
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'n_subj_el_big'],0.367647
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'n_subj_el_total'],0.369806
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'hypernym_count'],0.368442
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'hyponyms_count_sent'],0.367192
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nErrors'],0.369716
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nErrorsTokens'],0.372094
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'fleshscore'],0.368439
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'avgWordLength'],0.367487
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nSpelling'],0.368489
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nSpellingTokens'],0.370990
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nLongSentence'],0.369403
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'nStyleperSent'],0.367473
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'similarityprompt'],0.368544
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countDemonstrativo'],0.367941
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'demonstrativoPerSent'],0.368223
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise'],0.366568
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'enclisePerSent'],0.368787
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countDiscourseMarkers'],0.370255
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'discourseSent'],0.369692
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'n_bigram'],0.368473
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'n_subj_el_big'],0.368883
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'n_subj_el_total'],0.368398
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count'],0.365414
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hyponyms_count_sent'],0.368055
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nErrors'],0.367447
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nErrorsTokens'],0.369554
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'fleshscore'],0.369426
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'avgWordLength'],0.367164
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nSpelling'],0.368348
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nSpellingTokens'],0.367855
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nLongSentence'],0.368474
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'nStyleperSent'],0.366678
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'similarityprompt'],0.369545
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'countDemonstrativo'],0.368337
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'demonstrativoPerSent'],0.368298
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'enclisePerSent'],0.366808
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'countDiscourseMarkers'],0.369312
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'discourseSent'],0.368142
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'n_bigram'],0.369426
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'n_subj_el_big'],0.367453
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'n_subj_el_total'],0.369669
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'hyponyms_count_sent'],0.371141
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nErrors'],0.370247
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nErrorsTokens'],0.370230
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'fleshscore'],0.369663
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength'],0.366498
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nSpelling'],0.369281
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nSpellingTokens'],0.372446
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nLongSentence'],0.371049
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'nStyleperSent'],0.369549
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'similarityprompt'],0.368357
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'countDemonstrativo'],0.367345
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'demonstrativoPerSent'],0.367763
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'enclisePerSent'],0.368928
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'countDiscourseMarkers'],0.369172
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'discourseSent'],0.368646
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'n_bigram'],0.370675
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'n_subj_el_big'],0.368329
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'n_subj_el_total'],0.369874
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'hyponyms_count_sent'],0.368332
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nErrors'],0.370385
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nErrorsTokens'],0.371073
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'fleshscore'],0.369379
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nSpelling'],0.368163
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nSpellingTokens'],0.371998
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nLongSentence'],0.370761
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'nStyleperSent'],0.368795
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'similarityprompt'],0.368094
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'countDemonstrativo'],0.367922
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'demonstrativoPerSent'],0.368119
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent'],0.367600
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'countDiscourseMarkers'],0.370310
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'discourseSent'],0.368569
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'n_bigram'],0.371246
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'n_subj_el_big'],0.369578
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'n_subj_el_total'],0.369774
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'hyponyms_count_sent'],0.370640
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nErrors'],0.371785
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nErrorsTokens'],0.369829
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'fleshscore'],0.368420
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nSpelling'],0.371411
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nSpellingTokens'],0.371726
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nLongSentence'],0.369931
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'nStyleperSent'],0.369634
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt'],0.367704
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'countDemonstrativo'],0.368177
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'demonstrativoPerSent'],0.371024
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'countDiscourseMarkers'],0.369950
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'discourseSent'],0.371561
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_bigram'],0.370529
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_big'],0.367837
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total'],0.367767
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'hyponyms_count_sent'],0.370804
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nErrors'],0.371160
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nErrorsTokens'],0.370340
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'fleshscore'],0.368357
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nSpelling'],0.371576
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nSpellingTokens'],0.371891
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nLongSentence'],0.370696
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'nStyleperSent'],0.369302
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'countDemonstrativo'],0.369566
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'demonstrativoPerSent'],0.368949
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'countDiscourseMarkers'],0.370033
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'discourseSent'],0.370514
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'n_bigram'],0.369455
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'n_subj_el_big'],0.368461
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'hyponyms_count_sent'],0.369955
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nErrors'],0.369428
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nErrorsTokens'],0.369074
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'fleshscore'],0.369546
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpelling'],0.369485
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens'],0.367834
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nLongSentence'],0.371431
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nStyleperSent'],0.369451
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'countDemonstrativo'],0.368919
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'demonstrativoPerSent'],0.369506
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'countDiscourseMarkers'],0.369030
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'discourseSent'],0.367860
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_bigram'],0.369046
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big'],0.368108
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'hyponyms_count_sent'],0.369900
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'nErrors'],0.369150
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'nErrorsTokens'],0.370845
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'fleshscore'],0.368914
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'nSpelling'],0.370533
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'nLongSentence'],0.372470
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'nStyleperSent'],0.369493
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'countDemonstrativo'],0.369632
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'demonstrativoPerSent'],0.368397
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'countDiscourseMarkers'],0.369781
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'discourseSent'],0.369342
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'n_bigram'],0.369300
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'hyponyms_count_sent'],0.369237
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nErrors'],0.369585
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nErrorsTokens'],0.372125
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'fleshscore'],0.369251
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling'],0.368803
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nLongSentence'],0.372726
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nStyleperSent'],0.369814
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'countDemonstrativo'],0.370257
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'demonstrativoPerSent'],0.370076
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'countDiscourseMarkers'],0.370505
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'discourseSent'],0.369698
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'n_bigram'],0.371092
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'hyponyms_count_sent'],0.369009
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'nErrors'],0.369595
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'nErrorsTokens'],0.370386
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'fleshscore'],0.369045
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'nLongSentence'],0.371870
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'nStyleperSent'],0.370713
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'countDemonstrativo'],0.369497
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'demonstrativoPerSent'],0.369636
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'countDiscourseMarkers'],0.371253
+['ntokens', 'nStyleErrors', 'fstPessoaPerSent', 'hyponyms_count', 'nvoc', 'hypernym_count_sent', 'n_trigram', 'n_freq_pos_seq', 'fstPerson', 'countEnclise', 'hypernym_count', 'avgWordLength', 'enclisePerSent', 'similarityprompt', 'n_subj_el_total', 'nSpellingTokens', 'n_subj_el_big', 'nSpelling', 'discourseSent'],0.369756

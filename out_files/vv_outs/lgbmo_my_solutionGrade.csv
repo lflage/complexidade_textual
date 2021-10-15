@@ -1,0 +1,42 @@
+['n_bigram'],0.464763
+['n_trigram'],0.472400
+['n_freq_pos_seq'],0.474616
+['n_subj_el_big'],0.467084
+['n_subj_el_total'],0.468116
+['hypernym_count'],0.452926
+['hypernym_count_sent'],0.469405
+['hyponyms_count'],0.459794
+['hyponyms_count_sent'],0.474292
+['hypernym_count', 'n_bigram'],0.451307
+['hypernym_count', 'n_trigram'],0.453109
+['hypernym_count', 'n_freq_pos_seq'],0.453794
+['hypernym_count', 'n_subj_el_big'],0.453484
+['hypernym_count', 'n_subj_el_total'],0.454912
+['hypernym_count', 'hypernym_count_sent'],0.453017
+['hypernym_count', 'hyponyms_count'],0.454637
+['hypernym_count', 'hyponyms_count_sent'],0.455669
+['hypernym_count', 'n_bigram', 'n_trigram'],0.452766
+['hypernym_count', 'n_bigram', 'n_freq_pos_seq'],0.452152
+['hypernym_count', 'n_bigram', 'n_subj_el_big'],0.453681
+['hypernym_count', 'n_bigram', 'n_subj_el_total'],0.452668
+['hypernym_count', 'n_bigram', 'hypernym_count_sent'],0.454950
+['hypernym_count', 'n_bigram', 'hyponyms_count'],0.456271
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent'],0.451526
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram'],0.450098
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_freq_pos_seq'],0.452028
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_subj_el_big'],0.450721
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_subj_el_total'],0.450844
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'hypernym_count_sent'],0.450976
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'hyponyms_count'],0.452718
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_freq_pos_seq'],0.450724
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big'],0.449997
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_total'],0.450303
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'hypernym_count_sent'],0.451201
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'hyponyms_count'],0.451405
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_freq_pos_seq'],0.450189
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_subj_el_total'],0.451140
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'hypernym_count_sent'],0.451315
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'hyponyms_count'],0.452257
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_freq_pos_seq', 'n_subj_el_total'],0.449786
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_freq_pos_seq', 'hypernym_count_sent'],0.451833
+['hypernym_count', 'n_bigram', 'hyponyms_count_sent', 'n_trigram', 'n_subj_el_big', 'n_freq_pos_seq', 'hyponyms_count'],0.453254
